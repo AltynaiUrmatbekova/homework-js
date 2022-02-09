@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+div {
+    display: flex;
+    flex-wrap: wrap;
+}
+article {
+    flex-basis: 25%;
+    flex-grow: 1;
+    padding: .5%;
+    margin: .5px;
+    box-shadow: 0 0 10px black;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 10px;
+}
